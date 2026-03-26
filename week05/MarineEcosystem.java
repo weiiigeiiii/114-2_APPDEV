@@ -14,11 +14,11 @@ class Creature {
     }
 
     public String eat() {
-        return name + " 正在尋找食物";
+        return name + " 正在覓食";
     }
 
     public String describe() {
-        return name + "（" + habitat + "）";
+        return name + " (" + habitat + ")";
     }
 
     public final String kingdom() {
